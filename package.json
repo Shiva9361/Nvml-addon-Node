@@ -1,0 +1,17 @@
+{
+  "name": "gpu",
+  "version": "1.0.0",
+  "description": "Nvml addon for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js ",
+    "install": "node-gyp rebuild"
+  },
+  "author": "shivadharshan s",
+  "license": "MIT",
+  "gypfile": true,
+  "dependencies": {
+    "node-addon-api": "^8.0.0",
+    "node-gyp": "^10.1.0"
+  }
+}
